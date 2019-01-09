@@ -1,0 +1,690 @@
+AWSTATS DATA FILE 7.2 (build 1.992)
+# If you remove this file, all statistics for date 201801 will be lost/reset.
+# Last config file used to build this data file was /usr/local/etc/awstats/awstats.alexandermaslov.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2008                
+POS_TIME 2680                
+POS_VISITOR 13822               
+POS_DAY 20528               
+POS_DOMAIN 3576                
+POS_LOGIN 3809                
+POS_ROBOT 3964                
+POS_WORMS 4757                
+POS_EMAILSENDER 4888                
+POS_EMAILRECEIVER 5031                
+POS_SESSION 21387               
+POS_SIDER 21588               
+POS_FILETYPES 5166                
+POS_DOWNLOADS 5365                
+POS_OS 5502                
+POS_BROWSER 5726                
+POS_SCREENSIZE 7084                
+POS_UNKNOWNREFERER 7158                
+POS_UNKNOWNREFERERBROWSER 7741                
+POS_ORIGIN 7997                
+POS_SEREFERRALS 8139                
+POS_PAGEREFS 8305                
+POS_SEARCHWORDS 8844                
+POS_KEYWORDS 8996                
+POS_MISC 2344                
+POS_ERRORS 9055                
+POS_CLUSTER 3665                
+POS_SIDER_404 9154                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180201002139 1 0 14472534918477
+FirstTime 20180101002837
+LastTime 20180131181401
+LastUpdate 20180202000105 1 0 0 0 0
+TotalVisits 304                 
+TotalUnique 146                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 179                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 13 25 340989448 62 181 51568307
+1 25 55 305135815 11 75 52148240
+2 49 133 425967184 20 113 45354
+3 13 17 36061366 14 39 80013317
+4 13 13 85869 12 45 72099
+5 12 35 126162 16 31 75764
+6 14 16 93626 16 30 38120
+7 13 14 86275 8 37 36016129
+8 21 70 148738451 23 33 70556
+9 19 52 472300668 14 77 63436092
+10 14 20 269048594 13 86 12123588
+11 7 10 75421886 8 47 51420034
+12 13 52 785381227 30 110 12183466
+13 14 51 407900001 57 125 51505284
+14 12 38 162786195 15 50 96943
+15 11 48 431817835 40 130 103078652
+16 20 22 63516115 17 96 51570814
+17 15 66 423541012 14 58 48690
+18 13 68 432078332 19 150 11711246
+19 9 16 320405683 14 82 12082018
+20 19 34 419830189 21 132 153393
+21 9 30 782658129 24 102 105991
+22 18 31 471216202 23 57 12039765
+23 10 46 277680192 18 121 68496943
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 376 962 6745392719
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 18
+bingpreview 199 703723 20180130150404 0
+yandex 75 413356 20180131161359 0
+bingbot 65 495316730 20180131235217 0
+bot[\s_+:,\.\;\/\\-] 60 68846929 20180130110514 0
+googlebot 30 63512286 20180131183941 0
+no_user_agent 20 131540 20180126212656 0
+robot 15 11621552 20180123170141 0
+mj12bot 13 17111248 20180131234841 0
+crawl 9 58777 20180116130119 0
+slurp 8 11991640 20180130121607 0
+ia_archiver 6 39046 20180123024356 0
+[\s_+:,\.\;\/\\-]bot 6 39046 20180103002657 0
+mail\.ru 5 19731 20180131205047 0
+python 1 6577 20180128222234 0
+surveybot 1 6577 20180119152341 0
+favicon 1 6577 20180111123634 0
+baiduspider 2 12484 20180131195614 0
+netcraft 1 0 20180103022751 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 22 12980 0 0
+php 1 7815 0 0
+djvu 13 154349218 0 0
+html 362 2394194 0 0
+pdf 182 6587629489 0 0
+jpg 10 256990 0 0
+gif 372 742033 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/Books/Rimsky_Osnovy_2.pdf 113 49 6078169954
+/Books/Rimsky_Osnovy_1.pdf 87 10 1079915742
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+linuxandroid 115 6
+winlong 4 4
+winxp 105 34
+winnt 96 43
+win2000 3 3
+linux 79 52
+winvista 39 15
+win7 143 66
+macosx 343 86
+macosx9 1 1
+win8 14 14
+Unknown 79 52
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 68
+firefox57.0 29 3
+msie6.0 44 18
+chrome50.0.2661.89 27 1
+chrome53.6.1911.5649 1 1
+firefox44.0 12 12
+firefox26.0 3 3
+firefox18.0 1 1
+firefox49.0 1 1
+chrome58.0.3029.110 14 14
+msie8.0 8 4
+chrome63.0.3239.84 2 2
+chrome34.0.1847.132 32 32
+firefox6.0.1 1 1
+firefox43.0 1 1
+chrome62.0.3250.0 1 1
+msie7.0 19 19
+chrome37.0.2062.120 8 8
+safari9.1.1 1 1
+firefox23.0 2 2
+chrome62.0.3202.89 1 0
+chrome49.0.2623.112 25 1
+netscape 6 6
+firefox50.0 33 9
+chrome41.0.2224.3 2 2
+chrome55.0.2883.87 1 1
+msie5.01 2 2
+firefox53.0 5 5
+chrome63.0.3239.132 86 8
+firefox38.0 1 1
+chrome62.0.3202.94 56 11
+firefox7.0.1 8 8
+chrome49.0.2623.75 1 1
+firefox45.0 5 5
+firefox33.0 1 1
+chrome63.0.3239.108 2 2
+mozilla 12 9
+chrome46.10.2490.86 1 1
+netscape5.0 1 1
+chrome57.0.2987.133 2 2
+chrome42.0.2311.135 1 1
+firefox43.1 1 1
+chrome60.0.3112.90 4 4
+firefox35.0 4 4
+safari 52 7
+safari11.0 250 38
+chrome48.0.2564.116 7 7
+chrome58.0.3029.81 2 2
+chrome43.0.2357.125 1 1
+firefox52.0 27 6
+chrome56.0.2924.87 9 9
+firefox24.0 1 1
+opera9.80 1 1
+chrome61.0.3163.100 16 16
+firefox0.10.1 1 1
+chrome34.0.1847.116 1 1
+msie9.0 2 2
+Unknown 34 34
+safari9.0.3 2 2
+firefox17.0 9 9
+chrome22.0.1216.0 27 1
+chrome63.0.3239.111 87 4
+firefox58.0 2 1
+chrome24.0.1292.0 6 6
+chrome45.0.2454.94 1 1
+chrome48.0.2564.109 11 11
+opera9.60 1 1
+safari11.0.1 1 1
+firefox34.1 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+Mozilla 20180124024538
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20180117095616
+}__test|O:21:\ 20180124024109
+Go_1.1_package_http 20180131181401
+Riddler_(http://riddler.io/about) 20180117162417
+Mozilla/5.0_(compatible;_YandexBot/3.0;__http://yandex.com/bots) 20180102180014
+SEMrushBot 20180115095139
+Mozilla/5.0_(Android_4.1.2;_Mobile;_rv:50.0)_Gecko/50.0_Firefox/50.0 20180103025725
+Mozilla/5.0_(compatible;_vkShare;__http://vk.com/dev/Share) 20180108134640
+Go-http-client/1.1 20180106223426
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+SEMrushBot 20180115095139
+Go-http-client/1.1 20180106223426
+}__test|O:21:\ 20180124024109
+Go_1.1_package_http 20180131181401
+Riddler_(http://riddler.io/about) 20180117162417
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 284 439
+From1 4 30
+From2 12 13
+From3 25 51
+From4 51 488
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 6 6
+yandex 6 7
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 10
+http://rmmedia.ru/threads/57914/ 9 9
+http://burger-imperia.com 7 7
+http://all-url.info/site/alexandermaslov.ru/ 2 2
+http://pizza-tycoon.com 1 1
+http://hostx.ru 1 1
+http://avtozenno.blogspot.com/2017/11/termidroid-10.html 1 1
+http://ojoj.ru 1 1
+http://explorer.ssve.ru/www.alexandermaslov.ru 1 1
+https://getdomain.name/domain/alexandermaslov.ru 1 27
+http://10pay.ru/forum/showthread.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+302 1 0
+404 1186 262986
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 111
+/blog/wp-includes/wlwmanifest.xml 3 -
+/sitemap.xml 1 -
+/robots.txt 199 -
+/wp-content/plugins/sfwd-lms/license.txt 1 -
+/wordpress/ 1 -
+/sftp-config.json 2 -
+/admin.php 5 http://alexandermaslov.ru/admin.php
+/Redirect.aspx 2 -
+/modules/index.html 1 http://alexandermaslov.ru/modules/index.html
+/site/wp-includes/wlwmanifest.xml 3 -
+/admin/login.php 3 http://alexandermaslov.ru/admin/login.php
+/user/login 2 -
+/wp-content/plugins/estatik/readme.txt 1 http://alexandermaslov.ru/wp-content/plugins/estatik/readme.txt
+/.ftpconfig 1 -
+/js/jquery.uploadify/uploadify.css 2 -
+/administrator.php 3 http://alexandermaslov.ru/administrator.php
+/joomla/robots.txt 2 -
+/jquery-file-upload/server/php/ 1 http://alexandermaslov.ru/jquery-file-upload/server/php/
+/xmlrpc.php 5 -
+/adminzone 3 http://alexandermaslov.ru/adminzone
+/wp-content/plugins/sfwd-lms/templates/learndash_template_script.js 1 -
+/index2.php 1 -
+/plugins/community/uploadify/uploadify.css 2 -
+/mscms/ 3 http://alexandermaslov.ru/mscms/
+/redirect 3 -
+/redirect.aspx 2 -
+/KlfhsYYs 1 -
+/admin/include/uploadify/uploadify.css 2 -
+/wp//wp-login.php 1 -
+/cms/wp-admin/setup-config.php 2 -
+/user/register 2 -
+//wp-login.php 2 -
+/apple-touch-icon-120x120.png 178 -
+/wp-content/themes/headway-166/style.css 1 http://alexandermaslov.ru/wp-content/themes/headway-166/style.css
+/links.html 8 -
+/wp-content/plugins/form-lightbox/readme.txt 1 -
+/administrator 3 http://alexandermaslov.ru/administrator
+/apple-touch-icon-120x120-precomposed.png 178 -
+/go 1 -
+/wordpress/wp-admin/setup-config.php 2 -
+/redirect/ 2 -
+/joomla/administrator/index.php 2 -
+/wp-login.php 9 http://alexandermaslov.ru/wp-login.php
+/phpinfo.php 2 -
+/jump.html 1 -
+/replace.php 2 -
+/apple-touch-icon.png 178 -
+/wp-content/plugins/project.ziplast/uploader/server/php/files/ 1 http://alexandermaslov.ru/wp-content/plugins/project.ziplast/uploader/server/php/files/
+/assets/global/plugins/jquery-file-upload/server/node/server.js 1 -
+/go/url=http://ya.ru 1 -
+/.remote-sync.json 1 -
+/README.txt 1 http://alexandermaslov.ru/README.txt
+/netcat/ 3 http://alexandermaslov.ru/netcat/
+/libraries/sfn.php 1 -
+/wp-content/themes/ThisWay/includes/uploadify/upload_settings_image.php 1 http://alexandermaslov.ru/wp-content/themes/ThisWay/includes/uploadify/upload_settings_image.php
+/wp-includes/wlwmanifest.xml 3 -
+/blog/xmlrpc.php 1 -
+/sites/all/modules/uploadify/uploadify/uploadify.css 2 -
+/redirect.php 5 -
+/blog/ 1 -
+/license.txt 1 http://alexandermaslov.ru/license.txt
+/wp-config.php~ 3 -
+/wp/ 1 -
+/cms/wp-includes/wlwmanifest.xml 3 -
+/blog//wp-login.php 1 -
+/users/sign_in 3 http://alexandermaslov.ru/users/sign_in
+/cms/admin/ 3 http://alexandermaslov.ru/cms/admin/
+/license.php 4 -
+/redirect.cgi 3 -
+/wp-content/plugins/simple-ads-manager/sam-ajax-admin.php 1 -
+/includes/uploadify/uploadify.css 2 -
+/blog/administrator/index.php 1 -
+/apple-touch-icon-precomposed.png 174 -
+/blog/robots.txt 2 -
+/wp-content/plugins/php-event-calendar/js/file-uploader/jquery.fileupload.js 2 -
+/test/wp-admin/setup-config.php 5 -
+/wp/wp-includes/wlwmanifest.xml 3 -
+/up.php 8 -
+/server/php/ 2 http://alexandermaslov.ru/server/php/
+/wp/wp-admin/setup-config.php 5 -
+/redirect-to/ 1 -
+/administrator/index.php 4 -
+/far.php 2 -
+/Redirect 1 -
+/wordpress/wp-includes/wlwmanifest.xml 3 -
+/deployment-config.json 1 -
+/readme.html 1 http://alexandermaslov.ru/readme.html
+/admin 3 http://alexandermaslov.ru/admin
+/projects.html 3 -
+/wp-content/themes/atom/style.css 1 http://alexandermaslov.ru/wp-content/themes/atom/style.css
+/assets/modules/evogallery/js/uploadify/uploadify.css 2 -
+/mail/index.php 23 -
+/wp-content/plugins/custom-background/readme.txt 1 http://alexandermaslov.ru/wp-content/plugins/custom-background/readme.txt
+/url.php 5 -
+/rep.php 2 -
+/bitrix/admin/ 1 http://ALEXANDERMASLOV.ru/bitrix/admin/
+/wordpress//wp-login.php 1 -
+/wp-admin/setup-config.php 8 -
+/redirect.cfm 11 -
+/wp-content/themes/headway-163/style.css 1 http://alexandermaslov.ru/wp-content/themes/headway-163/style.css
+/cms/ 2 http://alexandermaslov.ru/cms/
+/index.php 12 http://alexandermaslov.ru/index.php
+//blog/ 1 http://alexandermaslov.ru/
+/uploadify/uploadify.css 2 -
+/redirect/http://ya.ru 1 -
+/favicon.png 1 -
+/away.php 3 -
+/.vscode/ftp-sync.json 1 -
+/go.php 6 -
+/redirect.asp 1 -
+/wp-content/themes/headway-16/style.css 1 http://alexandermaslov.ru/wp-content/themes/headway-16/style.css
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 179
+91.189.112.7 31 31 203887 20180131115524
+193.169.52.154 31 31 203887 20180131015024
+188.166.22.77 18 18 118386 20180131165344
+37.230.207.225 15 15 101415 20180116220940
+104.192.74.31 14 14 28641821 20180124024538
+5.188.211.14 11 11 71515 20180101204455
+13.56.229.65 11 11 72347 20180125134512
+142.4.218.236 10 10 28615929 20180117095617
+62.152.33.227 7 7 47327 20180131020344
+37.143.15.220 7 7 46039 20180130133930
+213.159.215.102 5 5 32885 20180127193301
+217.66.156.107 0 1 11991640 
+188.234.4.110 1 1 6577 20180112074015
+213.87.133.186 1 27 100891 20180106230745
+185.170.42.18 1 1 6577 20180108092738
+46.118.125.21 1 1 6761 20180125123823
+217.66.159.27 0 1 11991640 
+93.174.93.71 1 1 6577 20180101082947
+185.22.172.183 1 1 6577 20180118151518
+62.109.27.164 6 6 39462 20180131181401
+88.99.99.145 1 1 6577 20180108011353
+51.15.82.2 1 1 6577 20180116070424
+51.15.64.212 3 3 19731 20180116070421
+61.154.29.80 1 1 6577 20180124104853
+185.231.68.178 1 1 6577 20180115204415
+217.69.143.217 1 1 6577 20180118163827
+62.109.24.115 1 1 6577 20180125221605
+37.73.211.141 0 2 23983280 
+178.127.140.90 1 1 6577 20180106163741
+51.254.139.2 1 1 6577 20180128065944
+91.247.155.170 1 1 6761 20180117193828
+144.76.45.188 5 5 32872 20180131030609
+37.46.128.186 1 1 6577 20180106232445
+217.66.152.244 0 1 11991640 
+91.201.201.11 2 2 13154 20180131141126
+82.146.57.90 3 3 19731 20180123210212
+217.66.154.64 0 2 23983280 
+52.25.13.29 1 1 6577 20180101235856
+51.15.63.229 2 2 13154 20180125053308
+37.45.151.26 1 1 6761 20180116183417
+37.73.134.42 0 2 23983280 
+37.73.228.217 0 1 51392383 
+217.66.159.244 1 1 6761 20180130180448
+31.192.107.166 2 2 13154 20180125101246
+37.73.246.206 0 2 102784766 
+79.137.219.39 1 1 6577 20180104200439
+217.66.156.223 0 2 23983280 
+176.10.99.196 1 1 6577 20180104160812
+95.78.231.233 1 25 23979547 20180108093310
+91.247.155.164 1 1 6761 20180104234512
+66.102.9.150 2 30 82711886 20180125085728
+176.195.67.8 1 2 7167 20180107033748
+91.247.155.166 1 1 6761 20180116194049
+95.27.248.182 1 22 48572 20180126181258
+78.129.130.12 3 3 20283 20180131165439
+51.15.86.162 1 1 6577 20180104231432
+37.45.161.111 1 1 6761 20180119084742
+176.59.135.122 2 25 60392 20180109052535
+91.247.155.148 1 30 24098780 20180102143736
+88.99.141.3 1 1 6577 20180115193330
+37.73.129.237 0 1 51392383 
+217.66.152.207 0 2 23983280 
+82.146.58.161 1 1 6577 20180105022438
+34.250.219.209 6 6 39046 20180106081426
+185.13.35.118 4 4 26308 20180127022452
+37.46.133.249 4 4 26308 20180129202205
+84.19.181.25 2 2 13154 20180116065809
+31.132.177.18 1 1 6577 20180110144018
+195.22.127.177 3 3 19731 20180124024109
+91.247.155.157 0 1 11991640 
+195.225.231.214 2 2 13154 20180127221853
+91.247.155.129 0 3 35974920 
+37.73.237.77 0 5 59958200 
+109.63.201.217 1 2 7167 20180124061647
+176.120.38.254 1 1 6577 20180125145653
+52.36.50.172 1 1 6577 20180112050028
+78.31.67.2 1 1 6577 20180101002837
+95.188.32.25 1 1 6577 20180131050004
+37.73.188.254 0 1 51392383 
+217.66.154.93 1 1 6761 20180113212401
+46.48.13.161 2 2 13154 20180128004917
+95.37.38.7 2 2 13154 20180106223426
+37.46.128.41 3 3 19731 20180122203629
+217.66.152.82 3 28 12060338 20180102152754
+176.116.2.51 1 1 6577 20180105172311
+136.243.71.24 1 1 6577 20180111123631
+94.25.169.183 1 1 6577 20180120003311
+204.101.161.159 1 27 100891 20180113020233
+46.149.95.196 1 1 6577 20180111095743
+46.118.112.76 1 1 6761 20180103015758
+91.247.155.201 0 1 11991640 
+46.147.98.38 1 2 7351 20180104061306
+95.28.32.252 0 1 51392383 
+163.172.255.16 1 1 6577 20180111040544
+176.99.6.43 2 2 13154 20180131054941
+146.185.223.101 1 1 6577 20180125005046
+136.243.70.68 1 1 6577 20180104122337
+82.146.58.176 1 1 6577 20180130173900
+80.252.154.233 3 3 19731 20180129135152
+37.73.234.86 0 1 11991640 
+185.173.93.152 1 1 6577 20180109170641
+89.163.255.79 2 2 13154 20180106142100
+93.190.140.193 1 1 6577 20180107152947
+195.62.62.249 1 1 6577 20180120200801
+91.247.155.135 0 2 23983280 
+193.171.202.150 1 1 6577 20180104140314
+54.202.103.160 1 1 6577 20180122050002
+5.3.190.204 5 5 32885 20180121223237
+91.247.155.226 1 2 11998401 20180107135546
+174.138.77.54 1 1 6577 20180102225535
+91.247.155.199 0 1 11991640 
+213.159.38.90 1 1 6577 20180131020720
+185.211.247.126 1 1 6577 20180128134442
+145.255.10.157 1 1 6577 20180125120237
+31.28.21.243 5 5 33805 20180122035817
+89.238.177.18 2 2 15931 20180120104506
+62.210.247.93 1 1 6577 20180117162417
+92.63.99.19 1 1 6577 20180115043332
+51.15.34.228 1 1 6577 20180124014607
+37.73.216.17 0 1 51392383 
+181.214.175.210 1 1 6577 20180125050149
+37.73.228.85 0 2 102784766 
+34.211.230.85 1 1 6577 20180123023450
+94.23.83.80 1 1 6577 20180122161250
+90.154.93.116 1 2 7167 20180116125115
+92.63.99.123 1 1 6577 20180104000614
+37.203.11.171 1 1 6577 20180129030500
+66.102.9.154 0 16 22998278 
+37.59.55.220 1 1 6577 20180103044139
+217.66.156.44 1 1 6761 20180114183056
+66.82.144.29 1 1 6577 20180103123249
+167.114.233.118 1 1 6577 20180101124427
+89.178.230.103 1 22 49028 20180124170511
+216.218.222.12 2 2 13154 20180116065804
+192.243.53.51 1 1 6577 20180115095139
+138.201.255.45 3 3 19731 20180124015141
+212.42.215.10 1 27 100891 20180131130847
+5.39.218.214 2 2 13154 20180107184417
+109.191.12.191 1 1 6577 20180115115545
+78.26.151.97 0 78 2984186556 
+178.62.4.246 1 1 6577 20180108073703
+109.94.16.119 1 1 6577 20180115122142
+82.146.63.123 2 2 13154 20180109014154
+94.23.171.176 1 1 6577 20180116045410
+109.191.3.62 1 1 6577 20180111123355
+94.181.45.166 4 4 26308 20180127164520
+37.73.197.44 0 1 51392383 
+88.202.183.65 4 4 27044 20180130232424
+176.59.109.24 3 27 103987964 20180103025725
+37.73.210.34 0 1 51392383 
+178.46.162.83 1 1 6577 20180116192348
+91.247.155.156 1 5 47973321 20180112022335
+207.254.40.146 2 2 13154 20180105081232
+212.33.255.53 4 31 121212 20180126074646
+188.134.27.162 4 4 27044 20180126163445
+188.226.129.55 1 1 6577 20180130191444
+62.149.29.55 1 1 6577 20180127224302
+5.200.35.139 1 1 6577 20180121211731
+195.211.23.209 0 1 11991640 
+37.193.107.111 1 27 100891 20180103020632
+185.8.159.200 5 14 176060167 20180130215645
+91.247.155.182 0 1 11991640 
+91.247.155.204 0 1 11991640 
+176.116.16.239 1 1 6577 20180101211653
+38.145.81.8 1 1 6577 20180115100347
+34.207.216.183 1 1 6577 20180116095746
+66.102.9.152 0 16 6031123 
+91.247.155.131 1 4 35981681 20180103184820
+95.25.110.203 1 1 6577 20180127161332
+78.26.151.248 1 56 1629187365 20180115014206
+31.173.85.242 2 38 315593418 20180130121854
+151.80.203.177 1 1 6577 20180114141110
+37.73.232.100 0 1 11991640 
+37.73.161.6 0 2 102784766 
+85.10.219.211 1 1 6577 20180109080856
+217.66.154.88 0 1 11991640 
+91.224.204.38 1 22 49028 20180119185154
+188.165.4.128 1 1 6577 20180123071556
+79.143.44.182 3 34 156636242 20180125170421
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20180101 22 22 144230 13
+20180102 8 58 48243601 6
+20180103 12 65 140116943 10
+20180104 11 14 24056585 11
+20180105 10 10 65954 9
+20180106 16 44 24182594 11
+20180107 10 12 12058552 10
+20180108 10 33 47969899 9
+20180109 9 37 60064815 8
+20180110 5 5 32885 5
+20180111 10 15 60024154 10
+20180112 7 13 71996247 7
+20180113 8 34 147298 8
+20180114 6 7 12031286 6
+20180115 14 45 435256601 14
+20180116 22 53 205809866 18
+20180117 18 32 708761348 9
+20180118 9 9 59561 8
+20180119 8 29 95619 8
+20180120 11 13 24058588 10
+20180121 11 12 51464730 7
+20180122 6 14 411178710 6
+20180123 8 19 565369197 8
+20180124 28 55 285739223 13
+20180125 22 74 678261857 17
+20180126 8 51 1079335428 7
+20180127 13 27 719579231 12
+20180128 9 22 352954412 9
+20180129 9 24 179934345 8
+20180130 17 61 757719577 12
+20180131 19 53 96153120 15
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 1
+0s-30s 297
+2mn-5mn 3
+30s-2mn 1
+15mn-30mn 1
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/ 266 1749482 239 236
+/Other.html 69 466509 60 55
+/Projects.html 12 86808 3 5
+/Links.html 7 41930 0 3
+/Books/Walter_Piston_Orchestration.djvu 7 69183438 1 1
+/Contacts.html 7 41349 0 0
+/Books/Messner_Composition.djvu 6 85165780 0 3
+/myadmin/index.php 1 7815 0 1
+/myadmin/ 1 8116 1 0
+END_SIDER

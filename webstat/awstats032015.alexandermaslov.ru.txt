@@ -1,0 +1,662 @@
+AWSTATS DATA FILE 7.2 (build 1.992)
+# If you remove this file, all statistics for date 201503 will be lost/reset.
+# Last config file used to build this data file was /usr/local/etc/awstats/awstats.alexandermaslov.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2008                
+POS_TIME 2679                
+POS_VISITOR 13333               
+POS_DAY 20629               
+POS_DOMAIN 3492                
+POS_LOGIN 3724                
+POS_ROBOT 3879                
+POS_WORMS 4599                
+POS_EMAILSENDER 4730                
+POS_EMAILRECEIVER 4873                
+POS_SESSION 21444               
+POS_SIDER 21641               
+POS_FILETYPES 5008                
+POS_DOWNLOADS 5190                
+POS_OS 5319                
+POS_BROWSER 5540                
+POS_SCREENSIZE 6363                
+POS_UNKNOWNREFERER 6437                
+POS_UNKNOWNREFERERBROWSER 6940                
+POS_ORIGIN 7233                
+POS_SEREFERRALS 7377                
+POS_PAGEREFS 7545                
+POS_SEARCHWORDS 9193                
+POS_KEYWORDS 10074               
+POS_MISC 2343                
+POS_ERRORS 10578               
+POS_CLUSTER 3580                
+POS_SIDER_404 10678               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150401013310 1 0 6887623596621
+FirstTime 20150301003111
+LastTime 20150331193311
+LastUpdate 20150402000144 1 0 0 0 0
+TotalVisits 266                 
+TotalUnique 181                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 181                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 33 140 600230 17 42 50057
+1 26 125 498225 7 20 37656
+2 26 241 938501 8 30 65989
+3 27 244 893914 7 25 26840
+4 24 50 255106 19 36 17098070
+5 15 67 288019 19 36 40666375
+6 26 26 173173 11 31 61671
+7 20 98 415954 6 22 55021
+8 22 22 148374 14 39 87218
+9 29 35 28745388 30 44 176938
+10 15 15 98618 48 67 88026
+11 9 110 387879 15 39 63004349
+12 38 64 348619 11 44 11554717
+13 14 61 228350 8 24 38858
+14 8 8 53352 8 23 51434755
+15 11 114 59294832 10 50 69745
+16 39 153 701405 7 24 12019783
+17 17 121 488658 11 26 41428
+18 6 8 41855 5 13 27010
+19 19 175 692626 8 51 142031
+20 28 408 1497514 9 41 43216
+21 24 154 632362 18 31 17108180
+22 18 198 779823 20 61 51495956
+23 10 88 348712 9 24 16643
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 504 2725 86625385
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+yandex 256 666359 20150329223215 0
+googlebot 41 63528602 20150331064325 0
+bingpreview 36 106646 20150329080615 0
+bot[\s_+:,\.\;\/\\-] 27 169456 20150331052454 0
+bingbot 17 51446165 20150329070543 0
+no_user_agent 15 98655 20150323175737 0
+robot 13 57185598 20150331200001 0
+slurp 12 91987031 20150326114604 0
+baiduspider 10 50794 20150329051044 0
+[\s_+:,\.\;\/\\-]bot 6 38689 20150303105855 0
+mail\.ru 3 13154 20150325155210 0
+curl 1 6577 20150306224446 0
+python 2 13154 20150330090404 0
+surveybot 2 13154 20150321131145 0
+favicon 1 6577 20150306191640 0
+mj12bot 2 13154 20150318141342 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 99 76354 0 0
+djvu 4 51624875 0 0
+html 500 3319109 0 0
+jpg 157 4032027 0 0
+pdf 1 23917744 0 0
+gif 1964 3655276 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/Books/Rimsky_Osnovy_1.pdf 3 4 47901024
+/Books/Rimsky_Osnovy_2.pdf 3 0 154177149
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+linuxandroid 25 2
+winxp 269 64
+winlong 16 16
+winnt 5 5
+linux 11 11
+winvista 50 50
+win7 2124 207
+macosx 89 9
+winme 3 3
+win8 7 7
+Unknown 129 129
+macosx7 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 38
+msie6.0 38 12
+chrome37.0.2062.124 3 3
+chrome40.0.2214.115 56 20
+firefox4.0.1 5 5
+firefox3.6 1 1
+chrome28.0.1500.94 25 2
+chrome28.0.1500.95 22 1
+chrome40.0.2214.111 1 1
+firefox8.0 1 1
+firefox18.0 2 2
+chrome31.0.1650.57 27 1
+chrome36.0.1985.125 12 12
+chrome31.0.1650.63 49 2
+chrome32.0.1709.125 54 2
+opera9.80 137 22
+firefox31.0 33 33
+msie8.0 20 7
+chrome39.0.2171.65 1 1
+chrome41.0.2272.101 107 19
+chrome38.0.2125.122 33 4
+chrome37.0.2062.120 3 3
+chrome41.0.2272.89 7 7
+opera9.64 1 1
+safari8.0 22 1
+msie9.0 2 2
+Unknown 73 73
+chrome34.0.1847.131 1 1
+chrome37.0.2062.102 10 10
+safari6.0 67 8
+chrome32.0.1700.107 216 8
+chrome35.0.1916.114 1 1
+chrome36.0.1985.143 1536 153
+firefox33.0 1 1
+mozilla 59 59
+netscape5.0 1 1
+chrome35.0.1916.153 74 22
+firefox22.0 1 1
+firefox36.0 27 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+lechenie_mezhpozvonochnoi_grizhi_(_http://www.hunchan.ru_) 20150317181048
+\ 20150313092331
+Mozilla/5.0_(compatible;_MegaIndex.ru/2.0;__https://www.megaindex.ru/?tab=linkAnalyze) 20150330105200
+Mozilla/4.0_(compatible;_Synapse) 20150331193311
+lechenie_mezhpozvonochnoi_grizhi_HUNCHAN.RU_(_http://www.hunchan.ru_) 20150318162446
+Go_1.1_package_http 20150331072431
+Mozilla/3.0_(compatible;_Indy_Library) 20150302210928
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+lechenie_mezhpozvonochnoi_grizhi_(_http://www.hunchan.ru_) 20150317181048
+\ 20150313092331
+lechenie_mezhpozvonochnoi_grizhi_HUNCHAN.RU_(_http://www.hunchan.ru_) 20150318162446
+Go_1.1_package_http 20150331072431
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 162 163
+From1 3 3
+From2 22 22
+From3 258 258
+From4 59 2283
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 1 1
+yandex 21 21
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 41
+http://semalt.semalt.com/crawler.php 44 44
+http://msk-stabilizator.ru/cat.php 32 32
+http://buttons-for-website.com 20 20
+http://wegens.ru 20 20
+http://masyutka.ru/product-category/386/1512/ 12 12
+http://www.amv.kz 8 8
+http://rayban4.ru/products/category/974356 8 8
+http://msk-stabilizator.ru 8 8
+http://pumbaa.ru/dreamworks/ 4 4
+http://pumbaa.ru/education/ 4 4
+http://rmmedia.ru/threads/84871/ 1 1
+http://hvd-store.com 2 2
+http://www.otopleniesline.ru/363-carron 4 4
+http://volosipro.ru 1 1
+http://autoshopltd.ru/kreditovanie/ 4 4
+http://sexolimp.ru/catalog/smazka_i_kosmetika/ 4 4
+http://starandroid.ru/53-moy-3-milyh-zhivotnyh.html 4 4
+http://starandroid.ru/52-exua.html 4 4
+http://specialdessous.com 1 1
+http://masyutka.ru/product-category/1416/1421/ 4 4
+http://go.mail.ru/search 1 1
+http://www.sinomobi.ru/igri 4 4
+http://www.studio-line.ru/1184-fayans 4 4
+https://soundcloud.com 1 1
+http://www.gk-mps.ru 4 4
+http://starandroid.ru/games/race/ 4 4
+http://www.1994hiphop.com 4 4
+http://vk.com/away.php 1 1
+http://pumbaa.ru/girls/ 4 4
+http://rmmedia.ru/threads/111951/ 1 1
+http://golden-mall.ru/cat3603466 4 4
+http://pizza-tycoon.de 1 1
+http://www.vse-zabory.ru/5-ceny-na-zabory.html 4 4
+http://rayban4.ru/products/category/323267 4 4
+http://pumbaa.ru 4 4
+http://autoshopltd.ru 4 4
+http://golden-mall.ru/cat3603265 4 4
+http://golden-mall.ru/cat3603428 4 4
+http://www.sdelat-sait.ru/15-izgotovlenie-saytov.html 4 4
+http://starandroid.ru/49-minecraft.html 4 4
+http://golden-mall.ru/buy-gold-ring 4 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 7
+%d0%b0%d0%bb%d0%b5%d0%ba%d1%81%d0%b0%d0%bd%d0%b4%d1%80+%d0%bc%d0%b0%d1%81%d0%bb%d0%be%d0%b2+%d1%86%d0%b8%d1%80%d0%ba 8
+%d0%ba%d0%be%d0%bc%d0%bf%d0%be%d0%b7%d0%b8%d1%82%d0%be%d1%80+%d0%bc%d0%b0%d1%81%d0%bb%d0%be%d0%b2 1
+%d0%be%d0%b4%d0%bd%d0%be%d0%ba%d0%bb%d0%b0%d1%81%d0%bd%d0%b8%d0%ba%d0%b8.%d1%80%d1%83+%d0%bc%d0%b0%d1%81%d0%bb%d0%be%d0%b2+%d0%be%d0%bb%d0%b5%d0%ba%d1%81%d0%b0%d0%bd%d0%b4%d1%80 1
+%d1%81%d0%ba%d0%b0%d0%b9%d0%bf+maslova-gn 1
+dj+%d0%b0%d0%bb%d0%b5%d0%ba%d1%81%d0%b0%d0%bd%d0%b4%d1%80+%d0%bc%d0%b0%d1%81%d0%bb%d0%be%d0%b2 1
+%d0%bc%d0%b0%d1%81%d0%bb%d0%be%d0%b2+%d0%b0%d0%bb%d0%b5%d0%ba%d1%81%d0%b0%d0%bd%d0%b4%d1%80 1
+%d0%bc%d0%b0%d1%81%d0%bb%d0%be%d0%b2+%d0%b2+%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d0%b5 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 11
+%d0%bc%d0%b0%d1%81%d0%bb%d0%be%d0%b2 13
+%d0%b0%d0%bb%d0%b5%d0%ba%d1%81%d0%b0%d0%bd%d0%b4%d1%80 10
+%d1%86%d0%b8%d1%80%d0%ba 8
+%d0%be%d0%b4%d0%bd%d0%be%d0%ba%d0%bb%d0%b0%d1%81%d0%bd%d0%b8%d0%ba%d0%b8.%d1%80%d1%83 1
+%d1%81%d0%ba%d0%b0%d0%b9%d0%bf 1
+%d0%b2 1
+maslova-gn 1
+dj 1
+%d0%be%d0%bb%d0%b5%d0%ba%d1%81%d0%b0%d0%bd%d0%b4%d1%80 1
+%d0%ba%d0%be%d0%bc%d0%bf%d0%be%d0%b7%d0%b8%d1%82%d0%be%d1%80 1
+%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d0%b5 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 1 6577
+404 319 60190
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 71
+/robots.txt 158 -
+/Admin/fCKeditor/editor/filemanager/connectors/test.html 1 -
+/wp-content/plugins/inboundio-marketing/README.txt 1 -
+/admin.php 5 -
+/forum/ 1 -
+//public_html.zip 2 -
+/www.tar.gz 2 -
+/registration 1 http://alexandermaslov.ru/registration
+/Admin/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/do/view/Main/WebHome 1 -
+/alexandermaslov.ru.tar.gz 2 -
+/admin/index.php 1 -
+//www.zip 2 -
+/templates/cacheplugin.php 2 -
+/blog/wp-includes/js/tinymce/utils/mctabs.js 1 -
+/Editor/editor/filemanager/browser/default/connectors/test.html 1 -
+//alexandermaslov.ru.zip 1 -
+/wp-images/wpminilogo.png 1 -
+/alexandermaslov.ru.zip 3 -
+/FCKeditor/editor/filemanager/connectors/test.html 1 -
+/backup.zip 3 -
+/bitrix/admin/index.php 1 -
+/wp-content/plugins/reflex-gallery/readme.txt 1 -
+/public_html.tar.gz 2 -
+/pma/index.php 1 -
+/go/ 3 -
+/links.html 12 -
+/goto.php 3 -
+/administrator/ 1 -
+/components/com_hdflvplayer/hdflvplayer/download.php 1 -
+/backup.tar.gz 3 -
+/redirect/ 3 -
+/blog.php 1 http://alexandermaslov.ru/blog.php
+/wp-login.php 6 -
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/fileuploader.css 4 -
+//backup.tar.gz 2 -
+/wp-content/plugins/aspose-cloud-ebook-generator/readme.txt 1 -
+/wp-content/themes/RedSteel/download.php 1 -
+/apple-touch-icon.png 2 -
+/wp-content/plugins/download-manager/ 1 -
+/away/ 3 -
+/wp-includes/js/tinymce/utils/mctabs.js 1 -
+/goto/ 3 -
+/redirect.php 3 -
+/wp-admin/admin-ajax.php 1 -
+/blog/wp-images/wpminilogo.png 1 -
+/Fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+//www.tar.gz 2 -
+/www.zip 3 -
+//public_html.tar.gz 2 -
+/wp-content/force-download.php 1 -
+/apple-touch-icon-precomposed.png 2 -
+/core/model/phpthumb/fonts/readme.txt 1 -
+/user/ 1 -
+/jump/ 3 -
+/administrator/index.php 5 -
+/Editor/editor/filemanager/connectors/test.html 1 -
+/wp-content/plugins/mp3-jplayer/readme.txt 1 -
+/wp-content/plugins/justified-image-grid/download.php 2 -
+/wp-content/plugins/spider-event-calendar/readme.txt 1 -
+/administrator/components/com_simplephotogallery/lib/uploadFile.php 1 -
+/mail/index.php 14 http://alexandermaslov.ru/
+//alexandermaslov.ru.tar.gz 2 -
+/wp-content/plugins/wpmarketplace/readme.txt 1 -
+//backup.zip 2 -
+/public_html.zip 3 -
+/index.php 8 alexandermaslov.ru/index.php
+/away.php 3 -
+/go.php 3 -
+/phpmyadmin/index.php 1 -
+/jump.php 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 181
+178.137.85.17 84 84 567924 20150304194208
+5.9.151.67 48 48 309512 20150330105200
+176.8.91.104 24 24 162264 20150317202851
+178.137.82.104 20 20 135220 20150319081210
+46.119.119.74 16 16 108176 20150311161254
+178.137.80.8 16 16 108176 20150301123656
+62.109.26.168 15 15 98655 20150331003959
+82.146.63.123 12 12 78924 20150329063637
+62.109.27.164 10 10 65770 20150322050449
+82.146.62.80 8 8 52616 20150331072431
+178.137.94.105 4 4 27044 20150305015045
+178.210.65.27 1 1 6577 20150321193135
+177.84.210.141 1 27 100891 20150306200319
+85.113.55.152 1 1 6577 20150316033738
+124.163.252.4 3 3 19731 20150313131756
+188.135.220.82 1 27 100891 20150330201815
+82.208.100.6 1 1 6884 20150310163631
+95.37.146.47 1 1 6884 20150303095837
+101.254.17.162 2 2 13154 20150316164834
+46.188.72.238 1 27 100891 20150330205230
+46.118.120.165 4 4 27044 20150313013844
+54.173.35.243 1 1 6577 20150304143714
+171.6.197.46 1 27 100891 20150306054452
+217.69.133.169 2 2 13154 20150324184325
+89.208.147.38 1 1 6577 20150302210928
+109.184.138.123 1 1 6884 20150306165800
+188.42.240.119 5 5 32112 20150324010109
+222.161.249.23 1 1 6577 20150317181048
+94.255.32.225 1 27 100891 20150319201716
+54.149.70.79 2 2 13154 20150329223831
+46.28.202.81 1 1 6577 20150330163930
+189.218.64.232 1 27 100891 20150306235257
+140.246.120.96 1 1 6577 20150314051127
+93.120.207.186 1 1 6884 20150318162927
+5.165.252.118 2 44 97356 20150319031220
+37.9.53.140 1 1 6577 20150330001554
+89.222.164.50 7 43 35590791 20150331151143
+41.63.157.194 1 27 100891 20150311191208
+85.175.217.165 3 32 118366 20150327220631
+93.120.208.90 1 1 6884 20150313162945
+134.249.52.58 8 8 54088 20150315124406
+82.208.100.66 1 1 6884 20150317162928
+217.197.247.67 1 27 100891 20150307172449
+123.63.142.27 1 27 100891 20150325162750
+5.165.244.85 1 2 9717 20150301003111
+5.9.84.137 1 1 6577 20150302120101
+176.15.142.163 1 22 48678 20150330205229
+112.209.91.83 1 27 100891 20150324075622
+189.27.147.65 1 27 100891 20150327234807
+189.114.130.226 1 27 100891 20150307020453
+82.208.101.177 1 1 6884 20150303163301
+178.137.18.189 4 4 27044 20150314134954
+148.251.132.121 3 3 19731 20150303092209
+2.92.145.149 1 27 100891 20150308124803
+187.74.165.22 1 27 100891 20150309005050
+200.8.140.2 1 27 100891 20150315195055
+79.20.197.37 1 27 100891 20150328110355
+124.166.231.35 1 1 6577 20150318162446
+177.52.250.65 1 27 100891 20150302212512
+176.9.38.197 4 4 26308 20150323050708
+188.247.26.24 1 27 100891 20150325215815
+178.210.65.8 1 1 6577 20150320062515
+191.32.226.144 1 27 100891 20150309004559
+82.208.100.224 1 1 6884 20150315170552
+49.4.164.75 1 1 6577 20150304142129
+87.244.164.23 1 1 6577 20150323124851
+178.123.183.171 1 1 5900 20150311152946
+95.253.78.188 1 27 100891 20150324114541
+189.114.89.246 1 27 100891 20150315002805
+82.208.100.137 1 1 6884 20150325162903
+31.130.193.78 1 27 100891 20150325001510
+95.79.229.106 6 37 142290 20150331024731
+176.77.11.255 1 27 100891 20150318010429
+186.195.2.235 1 1 6577 20150309151512
+187.38.76.84 1 27 100891 20150331020511
+81.5.117.203 1 1 6577 20150301053948
+177.179.52.69 1 27 100891 20150305172617
+124.163.252.9 2 2 13154 20150303055721
+93.79.214.248 2 2 13154 20150310004705
+93.120.169.232 1 1 6884 20150321163541
+37.1.192.179 1 1 6577 20150320015913
+213.204.104.33 1 17 88559 20150323220312
+190.157.249.147 1 27 100891 20150313170454
+109.184.237.186 2 2 13768 20150302164553
+89.109.47.99 1 1 6884 20150331164440
+5.45.118.238 1 1 6577 20150315201004
+95.37.227.11 1 1 6884 20150302004206
+95.86.79.31 1 27 100891 20150311162255
+213.87.132.128 2 30 109184 20150329175959
+89.179.243.25 1 1 6577 20150302140818
+82.208.100.16 1 1 6884 20150326162901
+95.71.126.224 3 3 19731 20150312102129
+115.133.110.250 1 27 100891 20150331024146
+177.156.71.153 1 27 100891 20150303034755
+95.105.74.233 1 1 6577 20150323035121
+191.183.91.251 1 27 100891 20150312204913
+54.65.198.84 1 1 6577 20150324103829
+190.254.33.14 1 27 100891 20150317030358
+93.120.200.250 1 1 6884 20150329162846
+122.57.167.148 1 27 100891 20150313222016
+95.37.217.156 1 1 6884 20150309163920
+37.230.114.209 1 1 6577 20150328201618
+201.20.99.114 1 27 100891 20150318193835
+46.160.197.160 1 1 6577 20150328195803
+79.36.34.105 1 27 100891 20150327113604
+187.106.186.226 1 27 100891 20150314021615
+94.180.161.228 1 22 47730 20150318010429
+189.89.82.35 1 27 100891 20150327135847
+187.17.20.82 1 27 100891 20150321052446
+177.21.240.139 1 27 100891 20150318032041
+95.79.74.210 7 61 193875 20150324112807
+82.208.100.34 1 1 6884 20150330162844
+59.89.247.68 1 27 100891 20150329193000
+62.109.29.80 1 1 6577 20150326121012
+91.142.175.152 1 1 6577 20150315231622
+197.203.40.244 1 27 100891 20150318192901
+91.215.136.36 1 1 6577 20150331031515
+92.38.28.215 1 1 6577 20150314182226
+2.235.34.230 1 27 100891 20150330204152
+193.106.59.120 1 1 6577 20150308213834
+195.9.177.255 2 2 12477 20150330161931
+94.244.143.49 1 1 6577 20150326172125
+217.12.206.140 2 2 13154 20150313232537
+123.168.70.91 1 1 6577 20150313102430
+179.219.221.207 1 27 100891 20150303043128
+109.184.206.84 1 1 6884 20150311162949
+82.208.101.231 1 1 6884 20150308163018
+117.197.60.114 1 27 100891 20150326192945
+179.127.49.57 1 27 100891 20150319204846
+148.251.77.34 1 1 6577 20150323214457
+82.208.100.77 1 1 6884 20150314165717
+178.137.163.104 4 4 27044 20150305123115
+92.255.234.204 4 33 11650819 20150305153450
+191.240.56.100 1 27 100891 20150324221455
+106.51.139.68 1 27 100891 20150314072650
+46.73.202.230 1 2 8733 20150301003112
+93.120.141.63 1 1 6884 20150327165416
+46.188.72.234 4 58 220602 20150319035710
+177.103.111.164 1 27 100891 20150303020245
+188.32.213.22 2 30 111205 20150331024353
+197.203.36.46 1 27 100891 20150309210759
+109.184.207.51 1 1 6884 20150322191431
+64.74.215.96 8 14 28605958 20150313092331
+180.215.45.74 1 27 100891 20150325071222
+130.211.103.14 2 2 13154 20150331193311
+109.184.141.49 1 1 6884 20150316162928
+82.208.100.242 1 1 6884 20150328162856
+217.73.129.74 1 27 100891 20150317201611
+163.47.35.247 1 27 100891 20150321160118
+46.181.69.217 1 1 6577 20150310042246
+187.126.239.236 1 16 60144 20150331034520
+187.3.145.59 1 27 100891 20150308035126
+187.64.197.249 1 27 100891 20150325214659
+189.13.69.162 1 27 100891 20150311023241
+197.250.193.176 1 27 100891 20150313164406
+213.191.10.51 2 4 19434 20150319035718
+95.37.189.104 1 1 6884 20150307164522
+77.37.231.208 1 1 6577 20150302094120
+189.15.142.46 1 27 100891 20150313205930
+191.248.186.3 1 27 100891 20150322232144
+200.236.23.101 1 27 100891 20150312205820
+95.235.100.73 1 27 100891 20150319153655
+222.161.250.167 1 1 6577 20150317033336
+121.54.32.133 1 27 100891 20150330154458
+191.34.49.42 1 27 100891 20150325214857
+177.42.134.65 1 27 100891 20150306204250
+130.0.26.54 1 27 100891 20150303202701
+176.195.216.206 1 2 9410 20150301003120
+177.92.29.132 1 27 103134 20150323201810
+124.163.252.2 1 1 6577 20150318033433
+94.242.198.164 1 1 6577 20150326092556
+95.37.162.85 1 1 6884 20150301205219
+191.185.67.146 1 27 100891 20150323015400
+89.178.106.225 1 22 47730 20150330205229
+109.184.168.85 1 1 6884 20150312162945
+90.154.64.41 1 22 48572 20150312135652
+124.166.242.200 3 3 19731 20150315184441
+189.30.109.21 1 27 100891 20150319223654
+98.254.215.19 1 27 100891 20150328221237
+189.103.75.131 1 27 100891 20150301014740
+123.125.21.184 2 2 13154 20150315040416
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20150301 31 60 311053 11
+20150302 50 76 431445 14
+20150303 28 132 564970 12
+20150304 23 23 154951 6
+20150305 21 76 11857641 7
+20150306 6 110 417025 6
+20150307 5 57 221820 5
+20150308 5 57 221820 5
+20150309 8 86 335865 8
+20150310 13 13 87280 7
+20150311 21 99 421388 10
+20150312 9 82 290123 7
+20150313 25 135 29096066 14
+20150314 17 69 300707 9
+20150315 20 72 321947 13
+20150316 23 23 153013 9
+20150317 19 71 316106 10
+20150318 9 134 477909 9
+20150319 34 236 889330 10
+20150320 4 4 26308 4
+20150321 12 64 267086 7
+20150322 3 29 114352 3
+20150323 21 120 513025 12
+20150324 12 113 406101 8
+20150325 8 164 618807 8
+20150326 13 39 179349 8
+20150327 8 115 434500 6
+20150328 7 59 234974 7
+20150329 13 99 47746824 7
+20150330 19 165 584330 13
+20150331 17 143 555374 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 1
+5mn-15mn 4
+15mn-30mn 2
+2mn-5mn 2
+0s-30s 251
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/ 215 1414055 196 181
+/Other.html 200 1352200 32 32
+/Projects.html 51 351084 34 34
+/Contacts.html 21 123900 4 7
+/Links.html 13 77870 0 10
+/Books/Walter_Piston_Orchestration.djvu 3 34591719 0 2
+/Books/Messner_Composition.djvu 1 17033156 0 0
+END_SIDER

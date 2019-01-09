@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/alexandermaslov.ru/webstat"
+AuthUserFile /home/maslov/data/etc/7544122.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
